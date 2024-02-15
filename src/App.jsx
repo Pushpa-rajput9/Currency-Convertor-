@@ -9,6 +9,7 @@ function App() {
   const [convertedAmount, setConvertedAmount] = useState(0);
 
   const currencyInfo = useCurrencyInfo(from);
+  //const currencyinfoTo = useCurrencyInfo(to);
 
   const options = Object.keys(currencyInfo);
 
